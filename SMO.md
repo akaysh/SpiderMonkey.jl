@@ -41,7 +41,9 @@ SMO, like other population based algorithms, is also a trial and error based col
 
    where, **SM<sub>ij</sub>** is the **i<sup>th</sup>** **SM** in **j<sup>th</sup>** dimension, **LL<sub>kj</sub>** represents the **j<sup>th</sup>** dimension of the **k<sup>th</sup>** local group leader position and **SM<sub>rj</sub>** is the **r<sup>th</sup>** **SM** chosen randomly from the **k<sup>th</sup>** group such that **r** not equal to **i**.
 
-   [Algo 1 picture.]
+   <p align="center">
+    <img src="images/algo1.png" alt="algo1">
+</p>
 
    
 
@@ -58,7 +60,9 @@ SMO, like other population based algorithms, is also a trial and error based col
 
 ​	where, fitnessi is the fitness of ith monkey. Here, x + y = 1 and optimum results are obtained at values x = 0.9 and y = 0.1.
 
-[Algo 2 picture]
+<p align="center">
+    <img src="images/algo2.png" alt="algo2">
+</p>
 
 4. **Global Leader Learning Phase (GLL)**
 
@@ -74,7 +78,9 @@ SMO, like other population based algorithms, is also a trial and error based col
 
    SMnewij =SMij +Ru(0,1)×(GLj −SMij)+Ru(0,1)×(SMij −LLkj)
 
-   [Algo 3 picture]
+   <p align="center">
+    <img src="images/algo3.png" alt="algo3">
+</p>
 
    
 
@@ -82,5 +88,7 @@ SMO, like other population based algorithms, is also a trial and error based col
 
    In this phase, the decision about **GL** position is taken, if the position of **GL** is not updated in predetermined number of iterations i.e. *globalleaderlimit*, then the population is split into subgroups. The groups are split till the number of groups reaches to maximum allowed groups (MG), then they are combined to form a single group again.
 
-[Algo 4 picture]
+<p align="center">
+    <img src="images/algo4.png" alt="algo4">
+</p>
 
