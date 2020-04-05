@@ -1,5 +1,9 @@
 # SpiderMonkey.jl
-A Julia package for Spider Monkey Optimization. Spider Monkey Optimization is a numerical optimization algorithm which is based on the foraging begavior of spider monkeys. It is one of the swarm intelligence approaches which can be broadly classified as an algorithm inspired by intelligent foraging behavior of fission–fusion social structure based animals. The animals which follow fission–fusion social systems (like Spider Monkeys), split themselves from large to smaller groups and vice-versa based on the scarcity or availability of food.  
+
+[![Build Status](https://travis-ci.org/akaysh/SpiderMonkey.jl.svg?branch=master)](https://travis-ci.org/akaysh/SpiderMonkey.jl)
+
+
+Spider Monkey Optimization is a numerical optimization algorithm which is based on the foraging begavior of spider monkeys. It is one of the swarm intelligence approaches which can be broadly classified as an algorithm inspired by intelligent foraging behavior of fission–fusion social structure based animals. The animals which follow fission–fusion social systems (like Spider Monkeys), split themselves from large to smaller groups and vice-versa based on the scarcity or availability of food.  
 [Here](https://link.springer.com/article/10.1007/s12293-013-0128-0) is the research paper for SMO algorithm and [here](https://www.sciencedirect.com/science/article/abs/pii/S2210650216000122) is my Aegist Spider Monkey algorithm research paper which proposed a few tweaks in the original algorithm to make it more efficient (will be implemented soon as a part of this package).
 
 ## Install
