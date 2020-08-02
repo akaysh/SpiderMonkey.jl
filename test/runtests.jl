@@ -1,5 +1,6 @@
 using Test
 using SpiderMonkey: smo
+using BlackBoxOptimizationBenchmarking
 
 
 @testset "Optimize Sphere function" begin
