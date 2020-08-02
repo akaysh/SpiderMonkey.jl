@@ -17,7 +17,7 @@ using BlackBoxOptimizationBenchmarking
     verbose = false
     GL,GL_fitness = smo(D,P,fn,ɳ,λ,α,β,τ,ub,lb,verbose)
     @test GL_fitness ≈ BlackBoxOptimizationBenchmarking.F1.f_opt atol=0.01
-    @test size(GL) == D
+    @test size(GL)[1] == D
 end
 
 
